@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import MainLayout from "@/js/layout/MainLayout.vue";
+</script>
 <template>
-    <div class="text-rose-600 font-bold text-4xl text-center">Hello Arifa...</div>
+    <MainLayout>
+        <router-view></router-view>
+    </MainLayout>
 </template>
