@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Dashboard</title>
-    @vite('resources/css/app.css')
+    @vite('resources/css/app.css');
+    @vite('resources/js/app.js');
 </head>
 <body>
-<h1 class="text-3xl font-bold underline text-red-600">
-    Hello world!
-</h1>
+    <div id="root"></div>
 </body>
 </html>
