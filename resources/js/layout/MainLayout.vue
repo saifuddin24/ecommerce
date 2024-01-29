@@ -4,14 +4,16 @@ import SiteHeader from "@/js/components/SiteHeader.vue";
 import SiteFoooter from "@/js/components/SiteFoooter.vue";
 </script>
 <template>
-  <div>
-    <SiteHeader></SiteHeader>
-    <SiteDrawer></SiteDrawer>
-    <main>
+
+    <SiteHeader class="bg-gray-50 shadow-md" />
+    <SiteDrawer class="bg-gray-50 shadow-md" />
+
+    <main class="flex-grow p-4 ml-64 mt-16 border border-red-300 min-h-[500px]">
       <slot></slot>
     </main>
-    <SiteFoooter></SiteFoooter>
-  </div>
+<!--    <SiteFoooter></SiteFoooter>-->
+
+
 </template>
 <style scoped>
 
